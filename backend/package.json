@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build": "cd backend && npm install && cd .. && cd frontend && npm install && npm run build"
+    "build": "npm install && cd .. && cd frontend && npm install && npm run build"
   },
   "keywords": [],
   "author": "MamadTaheri68",
